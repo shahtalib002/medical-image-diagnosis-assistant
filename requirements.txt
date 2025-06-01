@@ -1,9 +1,8 @@
 streamlit
 openai
 pillow==11.1.0
-streamlit
-openai
 markdown-it-py==3.0.0
 mdurl==0.1.2
 Pygments==2.18.0
 rich==12.2.0
+python-dotenv

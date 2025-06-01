@@ -1,26 +1,40 @@
-# SambaNova Medical Image Diagnosis Assistant
+# 🧠 SambaNova Medical Image Diagnosis Assistant
 
 ## Overview
 
-The SambaNova Medical Image Diagnosis Assistant is a web-based application designed to facilitate the analysis of medical images. Built with Streamlit and integrated with the SambaNova API through the OpenAI client, this project allows users to upload an image and ask natural language questions about it. The assistant processes the image and text inputs to deliver actionable diagnostic information in real-time.
+The **SambaNova Medical Image Diagnosis Assistant** is a web-based AI tool that enables users to upload medical images and ask natural language questions related to those images. It leverages advanced large multimodal models (LMMs) via SambaNova’s API to generate medically-informed responses, providing a streamlined assistant for non-critical diagnostic insight or education.
 
-## Features
 
-- **User Authentication:** Users securely enter their SambaNova API key to access the diagnosis service.
-- **Image Upload:** Seamless image upload capability that displays and encodes images for API processing.
-- **Chat Interface:** Interactive chat interface to ask questions about the image data and receive detailed responses.
-- **Real-time Response:** Displays the response and response time from the medical diagnosis API.
-- **Error Handling:** Provides clear notifications for errors such as incorrect API key or network issues.
 
-## Getting Started
+---
 
-### Prerequisites
+## 🚀 Features
 
-- Python 3.8 or later
-- Virtual environment (recommended)
+- 🔐 **Secure API Integration**: Uses `.env` to securely load the SambaNova API key.
+- 🖼️ **Multi-Image Upload Support**: Upload and switch between multiple medical images.
+- 🧠 **Image-Question AI Analysis**: Ask natural language questions about uploaded images.
+- 📊 **Real-Time Results**: Displays AI response and response time.
+- 💬 **Interactive Chat Interface**: Keeps a running history of user questions and assistant replies.
+- ⚙️ **Prompt Engineering**: Uses structured prompts to encourage reliable, medically-cautious output.
 
-### Installation
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/unaib-khan/Medical-Image-Diagonosis-Assistant.git
+## 🛠️ Tech Stack
+
+| Component     | Technology             |
+|---------------|-------------------------|
+| Frontend      | Streamlit (Python UI)   |
+| Backend       | Python, OpenAI SDK      |
+| Image Handling| Pillow (PIL)            |
+| Env Handling  | python-dotenv           |
+| Deployment    | Streamlit CLI or Cloud  |
+
+---
+
+## 📂 Project Structure
+
+```text
+├── app.py                # Main application logic
+├── requirements.txt      # Dependencies
+├── .env                  # API Key storage (not committed to Git)
+├── README.md             # This file
