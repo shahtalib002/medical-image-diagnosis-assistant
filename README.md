@@ -34,7 +34,8 @@ The **SambaNova Medical Image Diagnosis Assistant** is a web-based AI tool that 
 ## 📂 Project Structure
 
 ```text
-├── app.py                # Main application logic
+├── diagnosis.py                # Main application logic
 ├── requirements.txt      # Dependencies
-├── .env                  # API Key storage (not committed to Git)
+ committed to Git)
 ├── README.md             # This file
+temp_image.jpg         #examples images
